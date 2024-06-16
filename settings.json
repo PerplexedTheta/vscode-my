@@ -46,6 +46,8 @@
     "workbench.editor.showTabs": "multiple",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.layoutControl.enabled": false,
+    "workbench.preferredDarkColorTheme": "Catppuccin Mocha",
+    "workbench.preferredLightColorTheme": "Catppuccin Latte",
     "workbench.sideBar.location": "right",
     "workbench.startupEditor": "welcomePageInEmptyWorkbench",
     "workbench.statusBar.visible": true,
