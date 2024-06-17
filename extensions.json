@@ -1,5 +1,6 @@
 {
     "recommendations": [
+        "bscan.perlnavigator",
         "catppuccin.catppuccin-vsc",
         "github.codespaces",
         "ms-azuretools.vscode-docker",
