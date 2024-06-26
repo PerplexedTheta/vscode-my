@@ -1,5 +1,6 @@
 {
     "breadcrumbs.enabled": true,
+    "cSpell.language": "en-GB",
     "editor.cursorBlinking": "blink",
     "editor.cursorSmoothCaretAnimation": "on",
     "editor.cursorStyle": "underline",
@@ -16,8 +17,9 @@
     "editor.matchBrackets": "never",
     "editor.minimap.enabled": false,
     "editor.overviewRulerBorder": false,
+    "editor.renderFinalNewline": "dimmed",
     "editor.renderLineHighlight": "gutter",
-    "editor.renderWhitespace": "all",
+    "editor.renderWhitespace": "selection",
     "editor.rulers": [
         80,
         120,
@@ -44,13 +46,11 @@
     "workbench.activityBar.location": "default",
     "workbench.colorTheme": "Catppuccin Latte",
     "workbench.editor.showTabs": "multiple",
-    "workbench.iconTheme": "material-icon-theme",
     "workbench.layoutControl.enabled": false,
     "workbench.preferredDarkColorTheme": "Catppuccin Mocha",
     "workbench.preferredLightColorTheme": "Catppuccin Latte",
     "workbench.sideBar.location": "right",
-    "workbench.startupEditor": "welcomePageInEmptyWorkbench",
     "workbench.statusBar.visible": true,
     "workbench.tips.enabled": false,
-    "workbench.tree.renderIndentGuides": "always"
+    "workbench.tree.renderIndentGuides": "always",
 }
