@@ -9,7 +9,7 @@
     "editor.fontLigatures": true,
     "editor.fontSize": 12,
     "editor.fontWeight": "normal",
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": false,
     "editor.guides.bracketPairs": true,
     "editor.guides.indentation": true,
     "editor.hover.enabled": true,
@@ -35,6 +35,9 @@
     "files.autoSave": "afterDelay",
     "files.insertFinalNewline": true,
     "git.decorations.enabled": false,
+    "perl.perltidyArgs": [
+        "-pro=/Users/ptfse-jake/.perltidyrc"
+    ],
     "scm.diffDecorations": "gutter",
     "terminal.integrated.enablePersistentSessions": true,
     "terminal.integrated.env.osx": {},
@@ -42,7 +45,7 @@
     "terminal.integrated.tabs.enabled": true,
     "window.commandCenter": false,
     "window.titleBarStyle": "custom",
-    "window.zoomLevel": 1.0,
+    "window.zoomLevel": 1,
     "workbench.activityBar.location": "default",
     "workbench.colorTheme": "Catppuccin Latte",
     "workbench.editor.showTabs": "multiple",
@@ -52,5 +55,5 @@
     "workbench.sideBar.location": "right",
     "workbench.statusBar.visible": true,
     "workbench.tips.enabled": false,
-    "workbench.tree.renderIndentGuides": "always",
+    "workbench.tree.renderIndentGuides": "always"
 }
