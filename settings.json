@@ -21,6 +21,7 @@
     "editor.renderLineHighlight": "gutter",
     "editor.renderWhitespace": "selection",
     "editor.rulers": [
+        50,
         80,
         120,
     ],
@@ -35,15 +36,28 @@
     "files.autoSave": "afterDelay",
     "files.insertFinalNewline": true,
     "git.decorations.enabled": false,
+    "perl.ctags.executable": "/usr/bin/ctags",
+    "perl.ctagsFile": "/dev/null",
+    "perl.perltidy": "/opt/homebrew/bin/perltidy",
     "perl.perltidyArgs": [
-        "-pro=/Users/ptfse-jake/.perltidyrc"
+        "--backup-file-extension='/'",
+        "--character-encoding=utf8",
+        "--output-line-ending=unix",
+        "--iterations=2",
+        "--cuddled-else",
+        "--continuation-indentation=4",
+        "--no-outdent-long-lines",
+        "--maximum-line-length=120",
+        "--break-at-old-comma-breakpoints",
     ],
+    "remote.restoreForwardedPorts": true,
     "scm.diffDecorations": "gutter",
     "terminal.integrated.enablePersistentSessions": true,
     "terminal.integrated.env.osx": {},
     "terminal.integrated.fontSize": 12,
     "terminal.integrated.tabs.enabled": true,
     "window.commandCenter": false,
+    "window.confirmBeforeClose": "always",
     "window.titleBarStyle": "custom",
     "window.zoomLevel": 1,
     "workbench.activityBar.location": "default",
@@ -55,5 +69,12 @@
     "workbench.sideBar.location": "right",
     "workbench.statusBar.visible": true,
     "workbench.tips.enabled": false,
-    "workbench.tree.renderIndentGuides": "always"
+    "workbench.tree.renderIndentGuides": "always",
+    "accessibility.signals.terminalBell": {
+        "sound": "on"
+    },
+    "terminal.integrated.enableVisualBell": true,
+    "git.openRepositoryInParentFolders": "always",
+    "editor.wordWrap": "on",
+    "redhat.telemetry.enabled": true,
 }
